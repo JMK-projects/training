@@ -1,14 +1,15 @@
 package employee_stuff;
 
 import java.util.Comparator;
-//Test
+//Fix
+
 public class Employee {
 	private String name;
 	private int number;
 	private float salary;
 	private float bonus;
 	private static final float MIN_SALARY = 7000f;
-	private final float INITIAL_BONUS = 10000f;
+	private final float INITIAL_BONUS = 200f;
 	public static int instanceCount;
 
 	@Override
