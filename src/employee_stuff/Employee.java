@@ -8,7 +8,7 @@ public class Employee {
 	private float salary;
 	private float bonus;
 	private static final float MIN_SALARY = 7000f;
-	private final float INITIAL_BONUS = 200f;
+	private final float INITIAL_BONUS = 10000f;
 	public static int instanceCount;
 
 	@Override
